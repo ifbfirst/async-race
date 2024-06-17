@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --main-color: #c3c3c3;
+  --main-button-color: #edebeb;
+  --text-color: #2f2f2f;
+  --accent-color: #fe2e2e;
+  --accent-light-color: #fa4040;
+  --dark-color: #989898;
+  --light-color: #e2e1e1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  margin: 20px;
+  font:
+    16px Inter,
+    sans-serif;
+  color: var(--text-color);
+}

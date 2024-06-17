@@ -1,0 +1,126 @@
+#wrapper {
+  padding: 20px;
+}
+
+#wrapper-winners {
+  display: none;
+}
+
+h3 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+.car-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.car {
+  font-size: 36px;
+  padding-left: 10px;
+  margin-left: 0px;
+  text-shadow: 0px 0px 1px var(--text-color);
+}
+.flag {
+  position: absolute;
+  right: 100px;
+  font-size: 35px;
+  color: var(--accent-color);
+}
+.road {
+  max-width: 1440px;
+  margin-bottom: 7px;
+  padding: 0 10px;
+  background-color: var(--dark-color);
+  border-bottom: 4px dashed var(--light-color);
+  position: relative;
+}
+.main-button {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  cursor: pointer;
+  background-color: var(--main-button-color);
+  border: none;
+  color: var(--text-color);
+}
+.main-button:hover,
+.next-btn:hover,
+.previous-btn:hover {
+  background-color: #d3d3d3;
+  transition: all 1s;
+}
+
+#btnGarage,
+#btnWinners {
+  padding: 20px;
+  max-width: 150px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 4px dashed var(--dark-color);
+}
+
+.next-btn,
+.previous-btn {
+  cursor: pointer;
+  width: 100px;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.next-btn::after {
+  content: '\00BB';
+  color: var(--dark-color);
+  margin: 5px;
+}
+.previous-btn::before {
+  content: '\00AB';
+  color: var(--dark-color);
+  margin: 5px;
+}
+.car-button {
+  width: 25px;
+  padding: 5px;
+  margin: 0px 5px 10px 5px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--accent-color);
+  font-weight: 400;
+}
+.car-button:hover {
+  background-color: var(--accent-light-color);
+}
+input {
+  height: 23px;
+  margin-right: 10px;
+}
+.disabled {
+  pointer-events: none;
+  color: var(--main-color);
+}
+
+#first {
+  font-size: 24px;
+  font-weight: 600;
+  width: 400px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+table {
+  background-color: var(--light-color);
+}
+td,
+th {
+  border: 1px solid var(--dark-color);
+  padding: 10px;
+}
+
+th {
+  cursor: pointer;
+}

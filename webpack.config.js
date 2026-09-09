@@ -11,7 +11,7 @@ const baseConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'webpack Boilerplate',
+      title: 'Async Race',
       template: path.resolve(__dirname, './src/index.html'),
       filename: 'index.html',
     }),
